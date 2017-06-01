@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mircosoftColor{
+     /*background-color: #0078d7;*/
+    background-color: #D24726;
+}
+
+.microcolor{
+    background-color: #A700AE;
+}
+
+.colorWhite{
+    color: #ffffff;
+}
+
+.colorbgwhite{
+    background-color: #ffffff;
+}
+.backend{
+    background-image: url("../images/MBlCoT.jpg");
+    width: 100%;
+    background-size: 100%;
+}
+
+.marg{
+    margin-top: 160px;
+}
+
+.bordered{
+    border-color: #ffffff;
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.paded{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}

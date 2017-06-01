@@ -1,0 +1,28 @@
+<div class="container">
+    <div ng-if="error" class="alert alert-danger">
+        <strong>Error!</strong> {{value}}
+    </div>
+    <div class="marg row">
+        <div class="col-md-4 col-md-offset-4">
+            <form ng-submit="fixIt()">
+                <div class="form-group">
+                    <label for="clientId">Client Id</label>
+                    <input type="text" class="form-control" ng-model="clientId" id="clientId">
+                </div>
+                <div class="form-group">
+                    <label for="techId">Technician Id</label>
+                    <input type="text" ng-model="techId" placeholder="xx-xxx-xxxx" class="form-control" id="techId">
+                </div>
+                <div class="checkbox">
+                    <label><input ng-model="payment" type="checkbox"> Payment</label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div ng-if="prog" class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                <span class="sr-only"></span>
+              </div>
+    </div>
+</div>
